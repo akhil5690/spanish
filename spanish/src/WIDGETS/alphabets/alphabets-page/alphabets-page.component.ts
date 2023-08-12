@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+
+
+
 @Component({
   selector: 'app-alphabets-page',
   templateUrl: './alphabets-page.component.html',
@@ -7,4 +10,11 @@ import { Component } from '@angular/core';
 })
 export class AlphabetsPageComponent {
 
+  constructor() { }
+
 }
+
+
+
+
+
