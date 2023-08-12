@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomePageComponent } from './WIDGETS/home-page/home-page.component';
-import { MainPageComponent } from './WIDGETS/main-page/main-page.component';
-import { LoginPageComponent } from './WIDGETS/login-page/login-page.component';
-import { ForgetpasswordPageComponent } from './WIDGETS/forgetpassword-page/forgetpassword-page.component';
-import { RegisterPageComponent } from './WIDGETS/register-page/register-page.component';
-import { TutorialPageComponent } from './WIDGETS/tutorial-page/tutorial-page.component';
-import { AlphabetsPageComponent } from './WIDGETS/alphabets/alphabets-page/alphabets-page.component';
+import { HomePageComponent } from '../WIDGETS/home-page/home-page.component';
+import { MainPageComponent } from '../WIDGETS/main-page/main-page.component';
+import { LoginPageComponent } from '../WIDGETS/login-page/login-page.component';
+import { ForgetpasswordPageComponent } from '../WIDGETS/forgetpassword-page/forgetpassword-page.component';
+import { RegisterPageComponent } from '../WIDGETS/register-page/register-page.component';
+import { TutorialPageComponent } from '../WIDGETS/tutorial-page/tutorial-page.component';
+import { AlphabetsPageComponent } from '../WIDGETS/alphabets/alphabets-page/alphabets-page.component';
 
 const routes: Routes = [
   {path:'home-page',component:HomePageComponent},
