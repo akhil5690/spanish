@@ -1,0 +1,10 @@
+.footer{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    bottom:0;
+    position: fixed;
+    width: 99%;  
+    gap: 1rem;
+    border-top:2px solid black;
+    text-align: center;
+}
