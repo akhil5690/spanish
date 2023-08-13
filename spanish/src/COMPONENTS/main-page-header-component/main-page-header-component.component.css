@@ -1,12 +1,12 @@
 .main-page-header{
- 
+
     display:grid;
-    grid-template-columns: 4fr 2fr 2fr 2fr ;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr ;
     top:0;
     position: fixed;
     width: 99%;
     gap: 1rem;
     border-bottom:2px solid black;
     text-align: center;
-    
+
 }
