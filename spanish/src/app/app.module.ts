@@ -15,7 +15,6 @@ import {
 } from '../COMPONENTS/main-page-header-component/main-page-header-component.component';
 import {TutorialPageComponent} from '../WIDGETS/tutorial-page/tutorial-page.component';
 import {AlphabetsPageComponent} from '../WIDGETS/alphabets/alphabets-page/alphabets-page.component';
-import {SyllabelesPageComponent} from '../WIDGETS/alphabets/syllabeles-page/syllabeles-page.component';
 
 
 @NgModule({
@@ -31,7 +30,6 @@ import {SyllabelesPageComponent} from '../WIDGETS/alphabets/syllabeles-page/syll
     MainPageHeaderComponentComponent,
     TutorialPageComponent,
     AlphabetsPageComponent,
-    SyllabelesPageComponent,
   ],
   imports: [
     BrowserModule,
